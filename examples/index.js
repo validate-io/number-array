@@ -10,3 +10,6 @@ console.log( isNumberArray( [] ) );
 
 console.log( isNumberArray( [1,'2',3] ) );
 // returns false
+
+console.log( isNumberArray( [1,NaN,3] ) );
+// returns false
